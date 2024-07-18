@@ -6,13 +6,20 @@
   // max-width: 14rem;
   max-width: 100rem;
   flex-grow: 0.3;
+  background-color: none;
+  border: 1px solid var(--lightgray);
+
+  // hover
+  &:hover {
+    background-color: var(--secondary);
+  }
 
   & > #search-icon {
     // ÐÞ¸Ä£º
-    // background-color: var(--lightgray);
-    background-color: none;
+    background-color: var(--lightgray);
+    // background-color: none;
     border-radius: 4px;
-    border: 1px solid var(--lightgray);
+    // border: 1px solid var(--lightgray);
     height: 2rem;
     display: flex;
     align-items: center;
