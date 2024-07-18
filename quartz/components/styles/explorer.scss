@@ -85,7 +85,9 @@ svg {
   user-select: none;
 
   & div > a {
-    color: var(--secondary);
+    // ĞŞ¸Ä£º²à±ßÀ¸×ÖÌåÑÕÉ«
+    // color: var(--secondary);
+    color: var(--outlinks);
     font-family: var(--headerFont);
     font-size: 0.95rem;
     font-weight: $semiBoldWeight;
