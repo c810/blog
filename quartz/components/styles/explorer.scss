@@ -61,6 +61,12 @@ button#explorer {
       max-height 0.35s ease,
       transform 0.35s ease,
       opacity 0.2s ease;
+
+    // 新增：左侧边栏的探索部分高度
+    &.overflow {
+      max-height: 600px !important;
+    }
+
     & li > a {
       color: var(--dark);
       // 删除：
@@ -70,10 +76,6 @@ button#explorer {
   }
 }
 
-// 新增：左侧边栏的探索部分高度
-ul.overflow {
-  max-height: 600px !important;
-}
 
 svg {
   pointer-events: all;
