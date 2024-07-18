@@ -10,13 +10,13 @@
   *::-webkit-scrollbar-thumb {
     // 滚动条里面深色条
     border-radius: 10px;
-    box-shadow: inset 0 0 5px rgba(241, 241, 241, 0.1);
-    background: #dadada;
+    box-shadow: inset 0 0 5px rgba(236, 236, 236, 0.1);
+    background: #ccc;
   }
   
   *::-webkit-scrollbar-track {
     // 滚动条里面轨道
-    box-shadow: inset 0 0 5px rgba(241, 241, 241, 0.1);
+    box-shadow: inset 0 0 5px rgba(236, 236, 236, 0.1);
     border-radius: 10px;
     background: #ededed;
   }
