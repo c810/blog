@@ -45,12 +45,12 @@ button#explorer {
 #explorer-content {
   list-style: none;
   overflow: hidden;
-  // max-height: none;
+  max-height: none;
   transition: max-height 0.35s ease;
   margin-top: 0.5rem;
 
   // 新增：左侧边栏的探索部分高度
-  max-height: 600px !important;
+  // max-height: 600px !important;
 
   &.collapsed > .overflow::after {
     opacity: 0;
