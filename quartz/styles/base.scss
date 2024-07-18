@@ -25,7 +25,8 @@ section {
   border-radius: 5px;
 }
 ::selection {
-  background: color-mix(in srgb, var(--highlight) 60%, rgba(255, 255, 255, 0));
+  // background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
+  background: var(--highlight);
   color: var(--darkgray);
 }
 
@@ -82,8 +83,6 @@ a {
     text-decoration: none;
     // background-color: var(--highlight);
     padding: 0 0.1rem;
-    // 新增一句：
-    border: var(--tertiary) 1px solid;
     border-radius: 5px;
     line-height: 1.4rem;
 
@@ -93,6 +92,8 @@ a {
       padding: 0;
     }
     &.tag-link {
+      // 新增一句：
+      border: var(--tertiary) 2px solid;
       &::before {
         content: "#";
       }
