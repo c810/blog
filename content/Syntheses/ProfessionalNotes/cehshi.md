@@ -1,8 +1,9 @@
 ---
-title: cehshi标题
-dg-publish: true
-dg-permalink: cehshi
+title: cehshi
+draft: false
+tags:
 ---
+
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
