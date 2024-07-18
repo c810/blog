@@ -81,6 +81,8 @@ a {
 
   &.internal {
     text-decoration: none;
+    // 新增
+    color: var(--tertiary);
     // background-color: var(--highlight);
     padding: 0 0.1rem;
     border-radius: 5px;
@@ -92,9 +94,10 @@ a {
       padding: 0;
     }
     &.tag-link {
-      // 新增一句：
-      border: var(--tertiary) 2px solid;
+      // 新增两句：
+      // border: var(--tertiary) 2px solid;
       background-color: #f0f0f000;
+
       &::before {
         content: "#";
       }
