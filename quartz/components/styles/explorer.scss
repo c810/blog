@@ -138,7 +138,9 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
 }
 
 .folder-icon:hover {
-  color: var(--tertiary);
+  // ÐÞ¸Ä£º²à±ßÀ¸Í¼±êhoverÑÕÉ«
+  // color: var(--tertiary);
+  color: var(--outlinks);
 }
 
 .no-background::after {
