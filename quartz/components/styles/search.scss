@@ -2,7 +2,9 @@
 
 .search {
   min-width: fit-content;
-  max-width: 14rem;
+  // ÐÞ¸Ä£º
+  // max-width: 14rem;
+  max-width: 100rem;
   flex-grow: 0.3;
 
   & > #search-icon {
