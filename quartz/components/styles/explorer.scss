@@ -85,9 +85,7 @@ svg {
   user-select: none;
 
   & div > a {
-    // 修改：侧边栏字体颜色
-    // color: var(--secondary);
-    color: var(--outlinks);
+    color: var(--secondary);
     font-family: var(--headerFont);
     font-size: 0.95rem;
     font-weight: $semiBoldWeight;
@@ -114,7 +112,9 @@ svg {
     & span {
       font-size: 0.95rem;
       display: inline-block;
-      color: var(--secondary);
+      // 修改：侧边栏字体颜色
+      // color: var(--secondary);
+      color: var(--outlinks);
       font-weight: $semiBoldWeight;
       margin: 0;
       line-height: 1.5rem;
