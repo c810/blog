@@ -40,6 +40,9 @@ button#toc {
     list-style: none;
     margin: 0.5rem 0;
     padding: 0;
+    // ÐÂÔö£º
+    max-height: 100px !important;
+
     & > li > a {
       color: var(--dark);
       // ÐÞ¸Ä£º
