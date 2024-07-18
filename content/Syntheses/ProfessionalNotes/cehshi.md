@@ -1,7 +1,6 @@
 ---
 title: cehshi
-draft: false
-tags:
+publish: true
 ---
 
 
