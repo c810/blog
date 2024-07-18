@@ -4,6 +4,8 @@ export interface ColorScheme {
   gray: string
   darkgray: string
   dark: string
+  // 新增：用于表示除文章内容之外的链接的颜色
+  outlinks: string
   secondary: string
   tertiary: string
   highlight: string
@@ -47,6 +49,8 @@ ${stylesheet.join("\n\n")}
   --gray: ${theme.colors.lightMode.gray};
   --darkgray: ${theme.colors.lightMode.darkgray};
   --dark: ${theme.colors.lightMode.dark};
+  // 新增：用于表示除文章内容之外的链接的颜色
+  --outlinks: ${theme.colors.lightMode.outlinks};
   --secondary: ${theme.colors.lightMode.secondary};
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
@@ -63,6 +67,8 @@ ${stylesheet.join("\n\n")}
   --gray: ${theme.colors.darkMode.gray};
   --darkgray: ${theme.colors.darkMode.darkgray};
   --dark: ${theme.colors.darkMode.dark};
+  // 新增：用于表示除文章内容之外的链接的颜色
+  --outlinks: ${theme.colors.darkMode.outlinks};
   --secondary: ${theme.colors.darkMode.secondary};
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};

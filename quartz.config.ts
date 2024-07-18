@@ -73,6 +73,8 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
+          // 新增：用于表示除文章内容之外的链接的颜色
+          outlinks: "#000000",
           secondary: "#8a5cf5",
           tertiary: "#8a5cf599",
           highlight: "#8a5cf546",
@@ -83,6 +85,8 @@ const config: QuartzConfig = {
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
+          // 新增：用于表示除文章内容之外的链接的颜色
+          outlinks: "#ffffff",
           dark: "#ebebec",
           secondary: "#7b97aa",
           tertiary: "#84a59d",

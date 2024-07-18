@@ -20,11 +20,12 @@ section {
 }
 
 .text-highlight {
-  background-color: var(--textHighlight);
+  background-color: var(--textHighlight); // 这是文章中高亮颜色
   padding: 0 0.1rem;
   border-radius: 5px;
 }
 ::selection {
+  // 修改：选中文字的背景色
   // background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
   background: var(--highlight);
   color: var(--darkgray);
@@ -70,10 +71,11 @@ strong {
 }
 
 a {
+  // 链接分为带有 internal 和 不带internal 的两种链接，前者基本文章内的就是 tag 或 双链，后者是文章内的外链和目录、标签页、网站名的链接
   font-weight: $semiBoldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
-  color: var(--secondary);
+  color: var(--outlinks);
 
   &:hover {
     color: var(--tertiary) !important;
