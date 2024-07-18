@@ -20,7 +20,8 @@ export default ((userOpts?: Partial<SearchOptions>) => {
     return (
       <div class={classNames(displayClass, "search")}>
         <div id="search-icon">
-          
+          <p>{i18n(cfg.locale).components.search.title}</p>
+          <div></div>
           <svg
             tabIndex={0}
             aria-labelledby="title desc"
