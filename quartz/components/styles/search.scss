@@ -24,6 +24,10 @@
     // 新增：
     &:hover {
       border: 1px solid var(--secondary);
+
+      & svg .search-path {
+        stroke: var(--secondary);
+      }
     }
 
     & > div {
@@ -45,11 +49,6 @@
         stroke: var(--darkgray);
         stroke-width: 2px;
         transition: stroke 0.5s ease;
-
-        // 新增：
-        &:hover {
-          stroke: var(--secondary);
-        }
       }
     }
   }
