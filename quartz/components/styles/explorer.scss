@@ -125,7 +125,9 @@ svg {
 
 .folder-icon {
   margin-right: 5px;
-  color: var(--secondary);
+  // ÐÞ¸Ä£º²à±ßÀ¸Í¼±êÑÕÉ«
+  // color: var(--secondary);
+  color: var(--outlinks);
   cursor: pointer;
   transition: transform 0.3s ease;
   backface-visibility: visible;
