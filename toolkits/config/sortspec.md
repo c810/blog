@@ -1,11 +1,15 @@
 ---
-sorting-spec: |-
-  target-folder: /
-  Home
-  Fragments
+sorting-spec: "target-folder: /
+
+  content\r
+
+  toolkits
+
+  target-folder: content\r
+
+  Fragments\r
+
   Syntheses
-  Cards
-  Toolkits
-  target-folder: Toolkits
-  NewNote
+
+  \rCards"
 ---
