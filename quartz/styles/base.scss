@@ -94,6 +94,7 @@ a {
     &.tag-link {
       // ĞÂÔöÒ»¾ä£º
       border: var(--tertiary) 2px solid;
+      background-color: none;
       &::before {
         content: "#";
       }
