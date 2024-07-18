@@ -75,16 +75,21 @@ a {
   font-weight: $semiBoldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
+  // 修改：将所有链接先改为outlinks
+  // color: var(--secondary);
   color: var(--outlinks);
 
   &:hover {
-    color: var(--tertiary) !important;
+    // 修改：将所有链接hover改为secondary
+    // color: var(--tertiary) !important;
+    color: var(--secondary) !important;
   }
 
   &.internal {
     text-decoration: none;
-    // 新增
-    color: var(--tertiary);
+    // 新增：内部链接的颜色
+    color: var(--secondary);
+    // 删除：内部链接背景颜色
     // background-color: var(--highlight);
     padding: 0 0.1rem;
     border-radius: 5px;
@@ -96,9 +101,9 @@ a {
       padding: 0;
     }
     &.tag-link {
-      // 新增两句：
-      // border: var(--tertiary) 2px solid;
-      background-color: #f0f0f000;
+      border: var(--tertiary) 2px solid;
+      // 新增：tag链接的背景颜色
+      background-color: var(--highlight);
 
       &::before {
         content: "#";
