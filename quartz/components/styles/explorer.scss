@@ -72,7 +72,7 @@ button#explorer {
 
 // 新增：左侧边栏的探索部分高度
 ul.overflow {
-  max-height: 600;
+  max-height: 600px !important;
 }
 
 svg {
