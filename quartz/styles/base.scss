@@ -103,6 +103,8 @@ a {
     &.tag-link {
       // 新增：tag链接的背景颜色
       background-color: var(--highlight);
+      // 新增：
+      font-weight: $normalWeight;
 
       &::before {
         content: "#";
