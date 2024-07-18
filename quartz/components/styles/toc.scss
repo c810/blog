@@ -44,13 +44,14 @@ button#toc {
       color: var(--dark);
       // ÐÞ¸Ä£º
       // opacity: 0.35;
-      opacity: 0.75;
+      opacity: 0.55;
       transition:
         0.5s ease opacity,
         0.3s ease color;
       &.in-view {
-        // É¾³ý£º
+        // ÐÞ¸Ä£º
         // opacity: 0.75;
+        opacity: 1;
       }
     }
   }
