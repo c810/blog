@@ -9,7 +9,11 @@ publish: true
 
 你思考片刻，回答道：
 
-[不，我只是起床上厕所](https://papertoilet.com/) 或 [是的，谢谢](#抵达星球)
+[不，我只是起床上厕所。](https://papertoilet.com/)
+
+或
+
+[是的，请带我去那里，谢谢！](#抵达星球)
 
 ![[index.gif]]
 
