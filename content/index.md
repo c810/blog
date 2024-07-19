@@ -15,10 +15,6 @@ publish: true
 
 ![[index.gif]]
 
-ss
-
-![](https://lhplanet-1316168555.cos.ap-beijing.myqcloud.com/shanyi/development-documentation/development-documentation-v3.0.assets/index.gif)
-
 ## 抵达星球
 
 你好！欢迎来到我的知识星球🪐。这里不仅是一个静态的知识集合，也是思想的交汇点，我在这里整理、提炼和分享我对知识的理解和洞察。
