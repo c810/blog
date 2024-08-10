@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"1ae6056a09ffacff","type":"text","text":"讲的是","x":110,"y":-202,"width":250,"height":60},
+		{"id":"bbfd9f0d3a4ff587","type":"text","text":"发的实际付款","x":110,"y":-282,"width":250,"height":60},
+		{"id":"19dd0edb90c0d8fe","type":"text","text":"测试","x":-340,"y":-242,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"VgasvEZYwzVG","fromNode":"19dd0edb90c0d8fe","fromSide":"right","toNode":"bbfd9f0d3a4ff587","toSide":"left"},
+		{"id":"YTesvEZdr5UW","fromNode":"19dd0edb90c0d8fe","fromSide":"right","toNode":"1ae6056a09ffacff","toSide":"left"}
+	]
+}
