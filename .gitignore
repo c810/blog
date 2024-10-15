@@ -5,9 +5,13 @@ public
 prof
 tsconfig.tsbuildinfo
 .obsidian
+.trash
+.idea
 .quartz-cache
 private/
 .replit
 replit.nix
+
 content/Cards
 content/Fragments
+toolkits

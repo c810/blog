@@ -1,4 +1,0 @@
----
-title: basis
-publish: true
----
