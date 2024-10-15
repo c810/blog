@@ -9,5 +9,5 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-Cards
-Fragments
+content/Cards
+content/Fragments
