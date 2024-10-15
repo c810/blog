@@ -45,7 +45,7 @@ public static int add(Integer ... arr) {
 
 文法是用于描述语言的语法结构的形式规则。
 
-```
+```java
 expression ::= value | plus | minus
 plus ::= expression ‘+’ expression   
 minus ::= expression ‘-’ expression  
