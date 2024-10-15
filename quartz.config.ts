@@ -73,7 +73,7 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          // ĞÂÔö£ºÓÃÓÚ±íÊ¾³ıÎÄÕÂÄÚÈİÖ®ÍâµÄÁ´½ÓµÄÑÕÉ«
+          // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½É«
           outlinks: "#000000",
           secondary: "#8a5cf5",
           tertiary: "#8a5cf599",
@@ -85,7 +85,7 @@ const config: QuartzConfig = {
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
-          // ĞÂÔö£ºÓÃÓÚ±íÊ¾³ıÎÄÕÂÄÚÈİÖ®ÍâµÄÁ´½ÓµÄÑÕÉ«
+          // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½É«
           outlinks: "#ffffff",
           dark: "#ebebec",
           secondary: "#7b97aa",
@@ -107,7 +107,7 @@ const config: QuartzConfig = {
           light: "github-light",
           dark: "github-dark",
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
