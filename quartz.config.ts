@@ -77,8 +77,7 @@ const config: QuartzConfig = {
           outlinks: "#000000",
           secondary: "#8a5cf5",
           tertiary: "#8a5cf599",
-          // highlight: "#8a5cf546",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "#8a5cf546",
           textHighlight: "#fff23688",
         },
         darkMode: {
