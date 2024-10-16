@@ -1,5 +1,5 @@
 ---
-title: vue3_admin_template 框架使用
+title: vue3_admin_template
 publish: true
 ---
 
