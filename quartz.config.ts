@@ -77,7 +77,8 @@ const config: QuartzConfig = {
           outlinks: "#000000",
           secondary: "#8a5cf5",
           tertiary: "#8a5cf599",
-          highlight: "#8a5cf546",
+          // highlight: "#8a5cf546",
+          highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
@@ -107,7 +108,7 @@ const config: QuartzConfig = {
           light: "github-light",
           dark: "github-dark",
         },
-        keepBackground: true,
+        keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
